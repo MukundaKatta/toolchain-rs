@@ -1,2 +1,2 @@
-// toolchain-rs — Unified Frontend Toolchain — bundler transpiler dev server
+export { Toolchain } from "./core.js";
 export const VERSION = "0.1.0";
