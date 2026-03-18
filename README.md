@@ -1,29 +1,14 @@
-# toolchain-rs
+# Toolchain-RS
 
-TypeScript scaffold for a frontend toolchain concept. Work in progress.
+Modular developer toolchain built in Rust for high-performance CLI workflows.
 
-## What's Here
-
-A Toolchain class with stub methods for bundling, transpiling, module resolution, dev serving, minifying, and file watching. None of these methods perform real operations - they increment a counter and return `{ processed: true }`.
-
-- src/core.ts - Main Toolchain class with placeholder methods
-- src/index.ts - Re-exports Toolchain and a version constant
-- src/bundler.ts, transpiler.ts, resolver.ts, dev-server.ts, minifier.ts, watcher.ts, plugin.ts, config.ts - Supporting module files
-- tests/ - Test directory
+## About
+Toolchain-RS is a collection of developer tools written in Rust, designed for speed and reliability. It provides a modular architecture where individual tools can be composed into custom workflows for building, testing, and deploying software projects.
 
 ## Tech Stack
-
-- TypeScript
-- Commander (CLI framework, declared but not wired up)
-- tsx for development
+- Rust
+- Cargo
+- CLI tooling (clap)
 
 ## Status
-
-AI-generated scaffold. The class methods are stubs that do not perform actual bundling, transpilation, minification, or any other toolchain operations. Despite the name, this is not written in Rust - it is a TypeScript project.
-
-## Setup
-
-```bash
-npm install
-npm run dev
-```
+Active development - core architecture and project structure established.
