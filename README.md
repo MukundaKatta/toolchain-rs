@@ -2,7 +2,7 @@
 
 **Live:** <https://mukundakatta.github.io/toolchain-rs/>
 
-Unified frontend toolchain — manages runtime, package manager, and development tools in one binary. toolchain-rs gives you a focused, inspectable implementation of that idea.
+Unified frontend toolchain — manages runtime, package manager, and development tools in one binary.
 
 ## Why toolchain-rs
 
